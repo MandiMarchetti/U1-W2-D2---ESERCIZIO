@@ -48,8 +48,6 @@ if (divisibile === 0){
 const eser4 = 8;
 const eser4B = eser4;
 
-console.log(eser4 === eser4B);
-
 if(eser4 === eser4B){
   console.log("Il valore è uguale a 8")
 }
@@ -115,6 +113,8 @@ console.log(typeof eUmNumero);
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari 
   (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
+
+/* SCRIVI QUI LA TUA RISPOSTA */
 const numeroPari = 5;
 
 if(numeroPari % 2 === 0){
@@ -122,11 +122,6 @@ if(numeroPari % 2 === 0){
 } else{
   console.log(numeroPari + " " + "è dispari")
 }
-
-
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
@@ -192,6 +187,8 @@ console.log(me);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.

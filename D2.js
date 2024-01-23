@@ -107,12 +107,15 @@ if(totalBlack > spedizioneG){
 /* SCRIVI QUI LA TUA RISPOSTA */
 
  
-let variabileA = "10";
-let variabileB = "20";
-let variabileC = "30";
+let variabileA = 10;
+let variabileB = 20;
+let variabileC = 30;
 
-const variabileGroup = (variabileA +","+ variabileB +","+ variabileC);
-console.log(variabileGroup);
+let results = [variabileA,variabileB,variabileC];
+
+results.sort();
+console.log(results);
+
 
 
 

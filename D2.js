@@ -64,14 +64,32 @@ if(eser4 === eser4B){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const spedizioneG = 50;
+const costoSped = 10;
+const totalShoppingCart = 100;
 
+if(totalShoppingCart > spedizioneG){
+  console.log("Spedizione gratuita!" +" "+ "total da pagare:"+ " " + totalShoppingCart)
+}else{
+  console.log(totalShoppingCart + costoSped)
+}
+
+const totalShoppingCart2 = 25;
+if(totalShoppingCart2 > spedizioneG){
+  console.log("Spedizione gratuita!" +" "+ "total da pagare:"+ " " + totalShoppingCart2)
+}else{
+  console.log("Total da pagare:" + " "+ (totalShoppingCart2 + costoSped) + " "+ "(Costo di spedizione 10 aggiunto nel totale)")
+}
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
-  Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
+  Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima 
+  se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -81,17 +99,34 @@ if(eser4 === eser4B){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+
+
 /* ESERCIZIO 8
-  Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
+  Crea un algoritmo per verificare che un valore fornito sia un numero oppure no 
+  (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const eUmNumero = 5;
+console.log(typeof eUmNumero);
+
 
 /* ESERCIZIO 9
-  Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
+  Crea un algoritmo per controllare se un numero fornito sia pari o dispari 
+  (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
+const numeroPari = 5;
+
+if(numeroPari % 2 === 0){
+  console.log(numeroPari + " " + "non è pari")
+} else{
+  console.log(numeroPari + " " + "è dispari")
+}
+
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.

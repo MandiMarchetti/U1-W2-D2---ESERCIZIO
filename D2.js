@@ -87,6 +87,15 @@ if(totalShoppingCart2 > spedizioneG){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const disconto20 = (totalShoppingCart / 100 * 20);
+const totalBlack = (totalShoppingCart - disconto20);
+console.log(totalBlack);
+
+if(totalBlack > spedizioneG){
+  console.log("Spedizione gratuita!" +" "+"Black Friday (disconto di 20% su ogni prodotto)"+" "+ "total da pagare:"+ " " + totalBlack)
+}else{
+  console.log(totalShoppingCart + costoSped)
+}
 
 
 /* ESERCIZIO 7
@@ -96,6 +105,14 @@ if(totalShoppingCart2 > spedizioneG){
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+ 
+let variabileA = "10";
+let variabileB = "20";
+let variabileC = "30";
+
+const variabileGroup = (variabileA +","+ variabileB +","+ variabileC);
+console.log(variabileGroup);
 
 
 
@@ -187,7 +204,10 @@ console.log(me);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const documenti = []
 
+documenti.push(1,2,3,4,5,6,7,8,9,10);
+console.log(documenti);
 
 
 /* ESERCIZIO 15
@@ -195,3 +215,6 @@ console.log(me);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+documenti.splice(9,1,100);
+console.log(documenti);

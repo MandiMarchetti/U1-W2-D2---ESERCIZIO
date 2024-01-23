@@ -142,6 +142,17 @@ if(numeroPari % 2 === 0){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let val = 7
+
+  if (val < 10){
+      console.log("True."+ " " + val +" " + "è menore che 10.");
+  }else if (val < 5){
+    console.log("False");
+  }else if(val === 10){
+    console.log("Uguale a 10")
+  }
+  
+  
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
@@ -154,17 +165,27 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+me.city = "Toronto";
+console.log(me);
+
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+delete me.lastName;
+console.log(me);
+
 /* ESERCIZIO 13
-  Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
+  Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà 
+  "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+me.skills.pop();
+console.log(me);
+
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.

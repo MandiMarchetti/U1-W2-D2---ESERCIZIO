@@ -3,32 +3,68 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const numb1 = 10;
+const numb2 = 20;
+
+if(numb1 > numb2){
+  console.log(numb1 + " " +  "è il numero più grande!")
+}else{
+  if(numb2 > numb1){
+    console.log(numb2 + " " + "è il numero più grande!")
+  }
+}
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const eser2 = 6;
+
+if(eser2 != 5){
+  console.log("Not equal!")
+}
+
 
 /* ESERCIZIO 3
-  Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
+  Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 
+  (suggerimento: usa l'operatore modulo)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+const divisibile = (10 % 5);
+
+if (divisibile === 0){
+  console.log("10 è divisibile per 5")
+}
 
 /* ESERCIZIO 4
-  Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
+  Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro 
+  addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const eser4 = 8;
+const eser4B = eser4;
+
+console.log(eser4 === eser4B);
+
+if(eser4 === eser4B){
+  console.log("Il valore è uguale a 8")
+}
 
 /* ESERCIZIO 5
-  Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
-  C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
+  Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile 
+  "totalShoppingCart".
+  C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita 
+  (altrimenti la spedizione ha un costo fisso pari a 10).
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
